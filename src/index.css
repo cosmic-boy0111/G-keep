@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.note{
+  display: flex;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 1rem;
+  width: 17%;
+  border-radius: 5px;
+}
+
+.del_btn{
+  align-self: flex-end;
+  color: #d4e157;
+}
+
+
